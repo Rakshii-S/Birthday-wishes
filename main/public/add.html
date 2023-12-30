@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Birthday Alarm</title>
+    <link rel="stylesheet" href="add.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+    <div>
+        <table align="left">
+            <p>ADD A NEW ENTRY</p><br>
+            <div id="m">
+                <div id="count1">Max Entries: 20</div>
+                <div id="count2">Used Entry numbers: Null</div>
+            </div>
+            <form action="display.html">
+                <tr>
+                    <td>Entry No</td>
+                    <td><input type="number" id="en" required max="50"></td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text"  id="name" required></td>
+                </tr>
+                <tr>
+                    <td>DOB</td>
+                    <td><input type="date"  id="dob" required></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email"  id="email" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Add a note</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><textarea id="note" required></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                            <a href="display.html"><button id="submit" onclick="save()" required>Add</button></a>
+                    </td>
+                </tr>
+                </br>
+
+            </form>
+        </table>
+        <img src="cake.jpg" width="230" height="380">
+    </div>
+    <script type="module" src="main.js"></script>
+    <script type="module">
+        import {save} from './main.js'
+        window.save = save;
+    </script>
+</body>
+</html>

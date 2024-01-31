@@ -10,5 +10,5 @@ Birthday-wishes is a simple demo website where you can enter your loved ones' bi
 https://github.com/Rakshii-S/Birthday-wishes/assets/128218700/46deeedb-d305-43b0-997c-b880e75f976b
 
 ## Setup
-**Installation and setup of firebase realtime database in javascript** : https://firebase.google.com/docs/database/web/start <br>
-**Firebase hosting** : https://firebase.google.com/docs/hosting
++**Installation and setup of firebase realtime database in javascript** : https://firebase.google.com/docs/database/web/start <br>
++**Firebase hosting** : https://firebase.google.com/docs/hosting

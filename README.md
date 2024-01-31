@@ -6,10 +6,10 @@ Birthday-wishes is a simple demo website where you can enter your loved ones' bi
 **Server:** Firebase, Javascript(Node.js). 
 
 ## User Interface
-+ Page 1:
++ Page 1:<br>
 https://github.com/Rakshii-S/Birthday-wishes/assets/128218700/46deeedb-d305-43b0-997c-b880e75f976b
 
-+ Page 2:
++ Page 2:<br>
 https://github.com/Rakshii-S/Birthday-wishes/assets/128218700/f2aac10d-9f5b-42ad-a73d-ad929fd7d492
   
 ## Setup

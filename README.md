@@ -1,4 +1,4 @@
-# Birthday-wishes
+## Birthday-wishes ##
 Birthday-wishes is a simple demo website where you can enter your loved ones' birthdays and details. At 12:10 am on their birthday, the site sends them a sweet email with birthday wishes. Easy and heartfelt celebrations!
 
 ## Tech Stack
